@@ -133,8 +133,6 @@ ParticleTransformerAK4TagInfoProducer::ParticleTransformerAK4TagInfoProducer(con
   }
 }
 
-//ParticleTransformerAK4TagInfoProducer::~ParticleTransformerAK4TagInfoProducer() {}
-
 void ParticleTransformerAK4TagInfoProducer::fillDescriptions(edm::ConfigurationDescriptions& descriptions) {
   // pfParticleTransformerAK4TagInfos
   edm::ParameterSetDescription desc;
