@@ -21,7 +21,7 @@ using namespace cms::Ort;
 class ParticleTransformerAK4ONNXJetTagsProducer : public edm::stream::EDProducer<edm::GlobalCache<ONNXRuntime>> {
 public:
   explicit ParticleTransformerAK4ONNXJetTagsProducer(const edm::ParameterSet&, const ONNXRuntime*);
-  ~ParticleTransformerAK4ONNXJetTagsProducer() override;
+  ~ParticleTransformerAK4ONNXJetTagsProducer() override = default;
 
   static void fillDescriptions(edm::ConfigurationDescriptions&);
 
@@ -78,7 +78,7 @@ ParticleTransformerAK4ONNXJetTagsProducer::ParticleTransformerAK4ONNXJetTagsProd
   }
 }
 
-ParticleTransformerAK4ONNXJetTagsProducer::~ParticleTransformerAK4ONNXJetTagsProducer() {}
+//ParticleTransformerAK4ONNXJetTagsProducer::~ParticleTransformerAK4ONNXJetTagsProducer() {}
 
 void ParticleTransformerAK4ONNXJetTagsProducer::fillDescriptions(edm::ConfigurationDescriptions& descriptions) {
   // pfParticleTransformerAK4JetTags
