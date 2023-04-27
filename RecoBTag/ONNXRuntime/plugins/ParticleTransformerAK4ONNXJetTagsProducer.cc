@@ -78,8 +78,6 @@ ParticleTransformerAK4ONNXJetTagsProducer::ParticleTransformerAK4ONNXJetTagsProd
   }
 }
 
-//ParticleTransformerAK4ONNXJetTagsProducer::~ParticleTransformerAK4ONNXJetTagsProducer() {}
-
 void ParticleTransformerAK4ONNXJetTagsProducer::fillDescriptions(edm::ConfigurationDescriptions& descriptions) {
   // pfParticleTransformerAK4JetTags
   edm::ParameterSetDescription desc;
